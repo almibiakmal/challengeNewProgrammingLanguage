@@ -60,3 +60,6 @@
 
 - [x] Challenge 7
 > Next : Bikin sesuatu yg Fun. Cari tahu perintah utk tulis sesuatu ke satu lokasi tertentu di layar(boleh memanfaatkan fitur bawaan bahasa yg Anda pakai atau pun pakai trik anda sendiri), perintah bersihkan layar, dan perintah Delay (perintah utk menunda beberaps detik eksekusi perintah berikutnya). Yang harus Anda buat pertama adalah. Menampilkan karakter yg seakan akan jalan ke kanan sampai kolom terahir (biasanya sih kolom 80) setelah kolom terahir tercapai, maka karakter tersebut harus bergerak mundur sampai kolom 1, balik lagi dan seterusnya sampai ditekan hruf X (exit). Have Fun! 😉
+
+- [x] Challenge 8
+> Operation file text (open and write file)

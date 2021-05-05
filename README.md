@@ -1,4 +1,4 @@
-# Learning Python Programming
+# Learning Programming
 - [x] Challenge 1
 > Buatlah tampilan seperti ini
 ```

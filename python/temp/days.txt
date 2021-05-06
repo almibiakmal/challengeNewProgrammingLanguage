@@ -1,0 +1,7 @@
+Hari 1 Senin 
+Hari 2 Selasa 
+Hari 3 Rabu 
+Hari 4 Kamis 
+Hari 5 Jumat 
+Hari 6 Sabtu 
+Hari 7 Minggu 

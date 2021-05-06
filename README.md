@@ -1,8 +1,7 @@
 # Learning Programming
-<<<<<<< HEAD
+
 ## If you have already learned the basics of a programming language try to solve this challenge. Good luck :D
-=======
->>>>>>> ecd2255317dc2979dc84894b44379ed882d94415
+
 - [x] Challenge 1
 > Buatlah tampilan seperti ini
 ```

@@ -1,5 +1,5 @@
-let high = 5;
-let wide = 5;
+let high = 11;
+let wide = 11;
 
 //Versi 1
 console.log("Versi 1");

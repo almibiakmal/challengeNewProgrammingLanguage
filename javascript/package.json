@@ -1,0 +1,14 @@
+{
+  "name": "challengeinjs",
+  "version": "1.0.0",
+  "description": "Challenge in Javascript",
+  "main": "challenge_1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lagan Script",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

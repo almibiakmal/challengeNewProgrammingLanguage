@@ -1,5 +1,7 @@
-let high = 6;
-let wide = 6;
+const readlineSync = require('readline-sync')
+
+let high = readlineSync.questionInt("Tinggi : ");
+let wide = readlineSync.questionInt("Lebar : ");
 
 while (high > 0){
     let temp = "";

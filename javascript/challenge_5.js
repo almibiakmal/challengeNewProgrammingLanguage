@@ -1,4 +1,6 @@
-let lebar = 6;
+const readlineSync = require('readline-sync')
+
+let lebar = readlineSync.questionInt("Lebar : ");
 
 let nomor = 1;
 let pointerGenap = 0;

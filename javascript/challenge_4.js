@@ -1,4 +1,6 @@
-let lebar = 6;
+const readlineSync = require('readline-sync')
+
+let lebar = readlineSync.questionInt("Lebar : ");
 let limit = lebar;
 let awal = false;
 

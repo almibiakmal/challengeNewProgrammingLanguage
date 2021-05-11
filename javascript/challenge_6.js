@@ -6,8 +6,7 @@ let angka = [];
 try{
 	while(true){
         let temp = readlineSync.questionInt("Enter a number : ");
-		temp = int(input("Enter a number : "))
-		angka.append(temp)
+		angka.push(temp)
     }
 }catch(ValueError){
     console.log("Process input stoped.");

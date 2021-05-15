@@ -3,24 +3,37 @@ const readlineSync = require('readline-sync')
 console.log("====================================\nWelcome to Sorting Program\n====================================\n");
 
 let angkas = [];
+let jumlahGerbong = readlineSync.questionInt("Jumlah gerbong : ");
+
+while(jumlahGerbong > 0){
+    let temp = readlineSync.questionInt("Enter a number : ");
+    angkas.push(temp);
+    jumlahGerbong--;
+}
+
+
 
 if(angkas.length > 1){
     while(true){
-        let answare = readlineSync.question("Do you want to start sorting (y/n) ? ");
+        let answare = readlineSync.question("\nDo you want to start sorting (y/n) ? ");
         
         switch(answare){
             case "y":
-                let tempAngka = "";
-                angkas.forEach((angka)=>{tempAngka += ", "+angka});
-                console.log(`Input : ${tempAngka}`);
+                
+                console.log(`Input : ${angkas}`);
                 console.log("Processing...");
 
                 while(true){
                     let move = 0;
 
                     angkas.forEach((val, index)=>{
-                        if(){
-                            
+                        let temp = 0;
+
+                        if(val > angkas[index+1]){
+                            temp = val;
+                            angkas[index] = angkas[index+1];
+                            angkas[index+1] = temp;
+                            move++;
                         }
                     });
 
@@ -29,7 +42,6 @@ if(angkas.length > 1){
                     }
                 }
 
-                console.log("Success...");
                 console.log(`Output : ${angkas}`);
 
                 break;
@@ -38,7 +50,7 @@ if(angkas.length > 1){
             default:
                 console.log("Unknow, please try again...");
         }
-        
+        break;
     }   
 }else{
     if(angkas.length === 1){
@@ -49,4 +61,3 @@ if(angkas.length > 1){
     }
 }
 
-console.log("Finish");

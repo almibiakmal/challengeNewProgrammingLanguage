@@ -3,7 +3,17 @@ import
 	"fmt"
 
 func main(){
-	build(6,6)
+	lebar, tinggi := 0, 0
+	fmt.Print("Tinggi: ")
+	fmt.Scanln(&tinggi)
+
+	fmt.Print("Lebar: ")
+	fmt.Scanln(&lebar)
+
+	if tinggi != 0 && lebar != 0{
+		build(tinggi, lebar)	
+	}
+	
 }
 
 func build(tinggi, lebar int){
